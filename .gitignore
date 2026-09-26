@@ -1,0 +1,38 @@
+﻿# ENV
+.env
+.env.*
+
+# PYTHON
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# RAG & DATA
+data_rag/
+*.jsonl
+*.npy
+.cache_rag/
+
+# MODEL
+*.gguf
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# CHAINLIT
+.chainlit/
+files/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LOG
+*.log
